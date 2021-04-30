@@ -2,16 +2,16 @@
 <testng-results ignored="12" total="16" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-30T14:40:45 CDT" name="Suite" finished-at="2021-04-30T14:41:15 CDT" duration-ms="30435">
+  <suite started-at="2021-04-30T18:35:23 CDT" name="Suite" finished-at="2021-04-30T18:35:56 CDT" duration-ms="33285">
     <groups>
     </groups>
-    <test started-at="2021-04-30T14:40:45 CDT" name="Test" finished-at="2021-04-30T14:41:15 CDT" duration-ms="30435">
+    <test started-at="2021-04-30T18:35:23 CDT" name="Test" finished-at="2021-04-30T18:35:56 CDT" duration-ms="33285">
       <class name="com.qa.orangeHRM.testcases.AddingJobTitleTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@2f9a01c1]" started-at="2021-04-30T14:40:50 CDT" name="beforeClass" finished-at="2021-04-30T14:40:50 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@78fb9a67]" started-at="2021-04-30T18:35:29 CDT" name="beforeClass" finished-at="2021-04-30T18:35:29 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@2f9a01c1]" started-at="2021-04-30T14:40:50 CDT" name="beforeMethod" finished-at="2021-04-30T14:40:52 CDT" duration-ms="2039" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@78fb9a67]" started-at="2021-04-30T18:35:29 CDT" name="beforeMethod" finished-at="2021-04-30T18:35:31 CDT" duration-ms="2120" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,21 +27,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyAddingJobTitle()[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@2f9a01c1]" started-at="2021-04-30T14:40:52 CDT" name="VerifyAddingJobTitle" finished-at="2021-04-30T14:40:59 CDT" duration-ms="6283" status="PASS">
+        <test-method signature="VerifyAddingJobTitle()[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@78fb9a67]" started-at="2021-04-30T18:35:31 CDT" name="VerifyAddingJobTitle" finished-at="2021-04-30T18:35:37 CDT" duration-ms="6632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAddingJobTitle -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@2f9a01c1]" started-at="2021-04-30T14:40:59 CDT" name="afterMethod" finished-at="2021-04-30T14:40:59 CDT" duration-ms="635" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@78fb9a67]" started-at="2021-04-30T18:35:37 CDT" name="afterMethod" finished-at="2021-04-30T18:35:38 CDT" duration-ms="636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@2f9a01c1]" started-at="2021-04-30T14:40:59 CDT" name="afterClass" finished-at="2021-04-30T14:40:59 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@78fb9a67]" started-at="2021-04-30T18:35:38 CDT" name="afterClass" finished-at="2021-04-30T18:35:38 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.qa.orangeHRM.testcases.AddingJobTitleTest -->
       <class name="com.qa.orangeHRM.testcases.AddingPayGrades">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@2611b9a3]" started-at="2021-04-30T14:40:59 CDT" name="beforeMethod" finished-at="2021-04-30T14:41:01 CDT" duration-ms="1957" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@73ff4fae]" started-at="2021-04-30T18:35:38 CDT" name="beforeClass" finished-at="2021-04-30T18:35:38 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@73ff4fae]" started-at="2021-04-30T18:35:38 CDT" name="beforeMethod" finished-at="2021-04-30T18:35:40 CDT" duration-ms="1992" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,37 +61,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@2611b9a3]" started-at="2021-04-30T14:40:59 CDT" name="beforeClass" finished-at="2021-04-30T14:40:59 CDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="addingpayGrades()[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@2611b9a3]" started-at="2021-04-30T14:41:01 CDT" name="addingpayGrades" finished-at="2021-04-30T14:41:08 CDT" duration-ms="6571" status="PASS">
+        <test-method signature="addingpayGrades()[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@73ff4fae]" started-at="2021-04-30T18:35:40 CDT" name="addingpayGrades" finished-at="2021-04-30T18:35:46 CDT" duration-ms="6437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingpayGrades -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@2611b9a3]" started-at="2021-04-30T14:41:08 CDT" name="afterMethod" finished-at="2021-04-30T14:41:08 CDT" duration-ms="621" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@73ff4fae]" started-at="2021-04-30T18:35:46 CDT" name="afterMethod" finished-at="2021-04-30T18:35:47 CDT" duration-ms="723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@2611b9a3]" started-at="2021-04-30T14:41:08 CDT" name="afterClass" finished-at="2021-04-30T14:41:08 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@73ff4fae]" started-at="2021-04-30T18:35:47 CDT" name="afterClass" finished-at="2021-04-30T18:35:47 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.qa.orangeHRM.testcases.AddingPayGrades -->
       <class name="com.qa.orangeHRM.testcases.LoginTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@366ef90e]" started-at="2021-04-30T14:40:45 CDT" name="beforeSuite" finished-at="2021-04-30T14:40:45 CDT" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@40e10ff8]" started-at="2021-04-30T18:35:23 CDT" name="beforeSuite" finished-at="2021-04-30T18:35:23 CDT" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@366ef90e]" started-at="2021-04-30T14:40:45 CDT" name="beforeTest" finished-at="2021-04-30T14:40:45 CDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@40e10ff8]" started-at="2021-04-30T18:35:23 CDT" name="beforeTest" finished-at="2021-04-30T18:35:23 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@366ef90e]" started-at="2021-04-30T14:40:45 CDT" name="beforeClass" finished-at="2021-04-30T14:40:45 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@40e10ff8]" started-at="2021-04-30T18:35:23 CDT" name="beforeClass" finished-at="2021-04-30T18:35:23 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@366ef90e]" started-at="2021-04-30T14:40:45 CDT" name="beforeMethod" finished-at="2021-04-30T14:40:48 CDT" duration-ms="3092" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@40e10ff8]" started-at="2021-04-30T18:35:23 CDT" name="beforeMethod" finished-at="2021-04-30T18:35:26 CDT" duration-ms="3129" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,29 +103,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyLoginFunctionality()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@366ef90e]" started-at="2021-04-30T14:40:48 CDT" name="VerifyLoginFunctionality" finished-at="2021-04-30T14:40:50 CDT" duration-ms="1527" status="PASS">
+        <test-method signature="VerifyLoginFunctionality()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@40e10ff8]" started-at="2021-04-30T18:35:26 CDT" name="VerifyLoginFunctionality" finished-at="2021-04-30T18:35:28 CDT" duration-ms="1714" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoginFunctionality -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@366ef90e]" started-at="2021-04-30T14:40:50 CDT" name="afterMethod" finished-at="2021-04-30T14:40:50 CDT" duration-ms="626" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@40e10ff8]" started-at="2021-04-30T18:35:28 CDT" name="afterMethod" finished-at="2021-04-30T18:35:29 CDT" duration-ms="627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@366ef90e]" started-at="2021-04-30T14:40:50 CDT" name="afterClass" finished-at="2021-04-30T14:40:50 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@40e10ff8]" started-at="2021-04-30T18:35:29 CDT" name="afterClass" finished-at="2021-04-30T18:35:29 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@366ef90e]" started-at="2021-04-30T14:41:15 CDT" name="afterTest" finished-at="2021-04-30T14:41:15 CDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@40e10ff8]" started-at="2021-04-30T18:35:56 CDT" name="afterTest" finished-at="2021-04-30T18:35:56 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@366ef90e]" started-at="2021-04-30T14:41:15 CDT" name="afterSuite" finished-at="2021-04-30T14:41:16 CDT" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@40e10ff8]" started-at="2021-04-30T18:35:56 CDT" name="afterSuite" finished-at="2021-04-30T18:35:57 CDT" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.qa.orangeHRM.testcases.LoginTest -->
       <class name="com.qa.orangeHRM.testcases.EmpFileUpload">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.EmpFileUpload@54227100]" started-at="2021-04-30T14:41:08 CDT" name="beforeMethod" finished-at="2021-04-30T14:41:10 CDT" duration-ms="1925" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.orangeHRM.testcases.EmpFileUpload@21aa6d6c]" started-at="2021-04-30T18:35:47 CDT" name="beforeClass" finished-at="2021-04-30T18:35:47 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.EmpFileUpload@21aa6d6c]" started-at="2021-04-30T18:35:47 CDT" name="beforeMethod" finished-at="2021-04-30T18:35:49 CDT" duration-ms="2015" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,19 +145,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.orangeHRM.testcases.EmpFileUpload@54227100]" started-at="2021-04-30T14:41:08 CDT" name="beforeClass" finished-at="2021-04-30T14:41:08 CDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="EmpFileUpload()[pri:0, instance:com.qa.orangeHRM.testcases.EmpFileUpload@54227100]" started-at="2021-04-30T14:41:10 CDT" name="EmpFileUpload" finished-at="2021-04-30T14:41:15 CDT" duration-ms="4494" status="PASS">
+        <test-method signature="EmpFileUpload()[pri:0, instance:com.qa.orangeHRM.testcases.EmpFileUpload@21aa6d6c]" started-at="2021-04-30T18:35:49 CDT" name="EmpFileUpload" finished-at="2021-04-30T18:35:56 CDT" duration-ms="6593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmpFileUpload -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.EmpFileUpload@54227100]" started-at="2021-04-30T14:41:15 CDT" name="afterMethod" finished-at="2021-04-30T14:41:15 CDT" duration-ms="618" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.EmpFileUpload@21aa6d6c]" started-at="2021-04-30T18:35:56 CDT" name="afterMethod" finished-at="2021-04-30T18:35:56 CDT" duration-ms="624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.orangeHRM.testcases.EmpFileUpload@54227100]" started-at="2021-04-30T14:41:15 CDT" name="afterClass" finished-at="2021-04-30T14:41:15 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.orangeHRM.testcases.EmpFileUpload@21aa6d6c]" started-at="2021-04-30T18:35:56 CDT" name="afterClass" finished-at="2021-04-30T18:35:56 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

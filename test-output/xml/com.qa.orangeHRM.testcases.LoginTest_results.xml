@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.527">
+           time="1.714">
     <properties></properties>
 
 
 
             <testcase
                 name="VerifyLoginFunctionality"
-                time="1.527"
+                time="1.714"
                 classname="com.qa.orangeHRM.testcases.LoginTest">
             </testcase>
 </testsuite>

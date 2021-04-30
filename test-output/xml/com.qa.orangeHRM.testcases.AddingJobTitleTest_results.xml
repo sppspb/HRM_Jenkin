@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="6.283">
+           time="6.632">
     <properties></properties>
 
 
 
             <testcase
                 name="VerifyAddingJobTitle"
-                time="6.283"
+                time="6.632"
                 classname="com.qa.orangeHRM.testcases.AddingJobTitleTest">
             </testcase>
 </testsuite>
