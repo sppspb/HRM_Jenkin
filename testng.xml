@@ -12,7 +12,7 @@
     <class name="com.qa.orangeHRM.testcases.LoginTest"/>
       	<class name="com.qa.orangeHRM.testcases.AddingJobTitleTest"/>
       	<class name="com.qa.orangeHRM.testcases.AddingPayGrades"/> 
-      	<class name="com.qa.orangeHRM.testcases.EmpFileUpload"/>
+    <!--  	<class name="com.qa.orangeHRM.testcases.EmpFileUpload"/>  --> 
       	
       	
     </classes>
