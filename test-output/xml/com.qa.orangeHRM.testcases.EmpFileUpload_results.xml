@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="6.593">
+           time="7.757">
     <properties></properties>
 
 
 
             <testcase
                 name="EmpFileUpload"
-                time="6.593"
+                time="7.757"
                 classname="com.qa.orangeHRM.testcases.EmpFileUpload">
             </testcase>
 </testsuite>
