@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="29.861" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="webdriver.chrome.driver" value="C:\\chromedriver_win32\\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\shobh\OneDrive\Documents\Software_Testing\Git_Pract\HRM_Jenkin\target\test-classes;C:\Users\shobh\OneDrive\Documents\Software_Testing\Git_Pract\HRM_Jenkin\target\classes;C:\Users\shobh\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\shobh\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\shobh\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-beta-2\selenium-java-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-beta-2\selenium-api-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-beta-2\selenium-chrome-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc7\auto-service-annotations-1.0-rc7.jar;C:\Users\shobh\.m2\repository\com\google\auto\service\auto-service\1.0-rc7\auto-service-1.0-rc7.jar;C:\Users\shobh\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\shobh\.m2\repository\com\google\guava\guava\30.1-jre\guava-30.1-jre.jar;C:\Users\shobh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\shobh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shobh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\shobh\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\shobh\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\shobh\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-beta-2\selenium-chromium-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-beta-2\selenium-devtools-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-beta-2\selenium-http-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-beta-2\selenium-json-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.0.0-beta-2\selenium-devtools-v85-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v86\4.0.0-beta-2\selenium-devtools-v86-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v87\4.0.0-beta-2\selenium-devtools-v87-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v88\4.0.0-beta-2\selenium-devtools-v88-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v89\4.0.0-beta-2\selenium-devtools-v89-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-beta-2\selenium-edge-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-beta-2\selenium-firefox-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-beta-2\selenium-firefox-xpi-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-beta-2\selenium-ie-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-beta-2\selenium-opera-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-beta-2\selenium-remote-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\io\netty\netty-buffer\4.1.58.Final\netty-buffer-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-codec-http\4.1.58.Final\netty-codec-http-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-codec\4.1.58.Final\netty-codec-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-handler\4.1.58.Final\netty-handler-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-common\4.1.58.Final\netty-common-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.58.Final\netty-transport-native-epoll-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.58.Final\netty-transport-native-kqueue-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.58.Final\netty-transport-native-unix-common-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-transport\4.1.58.Final\netty-transport-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-resolver\4.1.58.Final\netty-resolver-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-api\1.0.0\opentelemetry-api-1.0.0.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-context\1.0.0\opentelemetry-context-1.0.0.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.0.0\opentelemetry-exporter-logging-1.0.0.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.0.0-alpha\opentelemetry-sdk-metrics-1.0.0-alpha.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.0.0\opentelemetry-sdk-common-1.0.0.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.0.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.0.0-alpha.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.0.0\opentelemetry-sdk-trace-1.0.0.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.0.0-alpha\opentelemetry-api-metrics-1.0.0-alpha.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.0.0\opentelemetry-sdk-1.0.0.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.0.0-alpha\opentelemetry-semconv-1.0.0-alpha.jar;C:\Users\shobh\.m2\repository\net\bytebuddy\byte-buddy\1.10.19\byte-buddy-1.10.19.jar;C:\Users\shobh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\shobh\.m2\repository\org\asynchttpclient\async-http-client\2.12.2\async-http-client-2.12.2.jar;C:\Users\shobh\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.2\async-http-client-netty-utils-2.12.2.jar;C:\Users\shobh\.m2\repository\io\netty\netty-codec-socks\4.1.53.Final\netty-codec-socks-4.1.53.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-handler-proxy\4.1.53.Final\netty-handler-proxy-4.1.53.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.53.Final\netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar;C:\Users\shobh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.53.Final\netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar;C:\Users\shobh\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\shobh\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\shobh\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\shobh\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-beta-2\selenium-safari-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-beta-2\selenium-support-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\shobh\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\shobh\.m2\repository\org\testng\reportng\1.2.2\reportng-1.2.2.jar;C:\Users\shobh\.m2\repository\org\freemarker\freemarker\2.3.28\freemarker-2.3.28.jar;C:\Users\shobh\.m2\repository\com\google\inject\guice\4.2.0\guice-4.2.0.jar;C:\Users\shobh\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\shobh\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\shobh\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\shobh\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\shobh\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\shobh\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\shobh\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\shobh\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\shobh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\shobh\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\shobh\AppData\Local\Temp\surefire13618424592065075284\surefirebooter17489980753613556242.jar C:\Users\shobh\AppData\Local\Temp\surefire13618424592065075284 2021-05-01T13-57-13_554-jvmRun1 surefire15910848385438896583tmp surefire_016088239268748125320tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\shobh\OneDrive\Documents\Software_Testing\Git_Pract\HRM_Jenkin\target\test-classes;C:\Users\shobh\OneDrive\Documents\Software_Testing\Git_Pract\HRM_Jenkin\target\classes;C:\Users\shobh\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\shobh\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\shobh\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-beta-2\selenium-java-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-beta-2\selenium-api-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-beta-2\selenium-chrome-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc7\auto-service-annotations-1.0-rc7.jar;C:\Users\shobh\.m2\repository\com\google\auto\service\auto-service\1.0-rc7\auto-service-1.0-rc7.jar;C:\Users\shobh\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\shobh\.m2\repository\com\google\guava\guava\30.1-jre\guava-30.1-jre.jar;C:\Users\shobh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\shobh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shobh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\shobh\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\shobh\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\shobh\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-beta-2\selenium-chromium-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-beta-2\selenium-devtools-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-beta-2\selenium-http-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-beta-2\selenium-json-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.0.0-beta-2\selenium-devtools-v85-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v86\4.0.0-beta-2\selenium-devtools-v86-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v87\4.0.0-beta-2\selenium-devtools-v87-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v88\4.0.0-beta-2\selenium-devtools-v88-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v89\4.0.0-beta-2\selenium-devtools-v89-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-beta-2\selenium-edge-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-beta-2\selenium-firefox-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-beta-2\selenium-firefox-xpi-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-beta-2\selenium-ie-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-beta-2\selenium-opera-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-beta-2\selenium-remote-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\io\netty\netty-buffer\4.1.58.Final\netty-buffer-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-codec-http\4.1.58.Final\netty-codec-http-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-codec\4.1.58.Final\netty-codec-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-handler\4.1.58.Final\netty-handler-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-common\4.1.58.Final\netty-common-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.58.Final\netty-transport-native-epoll-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.58.Final\netty-transport-native-kqueue-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.58.Final\netty-transport-native-unix-common-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-transport\4.1.58.Final\netty-transport-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-resolver\4.1.58.Final\netty-resolver-4.1.58.Final.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-api\1.0.0\opentelemetry-api-1.0.0.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-context\1.0.0\opentelemetry-context-1.0.0.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.0.0\opentelemetry-exporter-logging-1.0.0.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.0.0-alpha\opentelemetry-sdk-metrics-1.0.0-alpha.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.0.0\opentelemetry-sdk-common-1.0.0.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.0.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.0.0-alpha.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.0.0\opentelemetry-sdk-trace-1.0.0.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.0.0-alpha\opentelemetry-api-metrics-1.0.0-alpha.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.0.0\opentelemetry-sdk-1.0.0.jar;C:\Users\shobh\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.0.0-alpha\opentelemetry-semconv-1.0.0-alpha.jar;C:\Users\shobh\.m2\repository\net\bytebuddy\byte-buddy\1.10.19\byte-buddy-1.10.19.jar;C:\Users\shobh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\shobh\.m2\repository\org\asynchttpclient\async-http-client\2.12.2\async-http-client-2.12.2.jar;C:\Users\shobh\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.2\async-http-client-netty-utils-2.12.2.jar;C:\Users\shobh\.m2\repository\io\netty\netty-codec-socks\4.1.53.Final\netty-codec-socks-4.1.53.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-handler-proxy\4.1.53.Final\netty-handler-proxy-4.1.53.Final.jar;C:\Users\shobh\.m2\repository\io\netty\netty-transport-native-epoll\4.1.53.Final\netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar;C:\Users\shobh\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.53.Final\netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar;C:\Users\shobh\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\shobh\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\shobh\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\shobh\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-beta-2\selenium-safari-driver-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-beta-2\selenium-support-4.0.0-beta-2.jar;C:\Users\shobh\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\shobh\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\shobh\.m2\repository\org\testng\reportng\1.2.2\reportng-1.2.2.jar;C:\Users\shobh\.m2\repository\org\freemarker\freemarker\2.3.28\freemarker-2.3.28.jar;C:\Users\shobh\.m2\repository\com\google\inject\guice\4.2.0\guice-4.2.0.jar;C:\Users\shobh\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\shobh\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\shobh\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\shobh\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\shobh\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\shobh\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\shobh\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\shobh\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\shobh\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\shobh\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\shobh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\shobh\OneDrive\Documents\Software_Testing\Git_Pract\HRM_Jenkin"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\shobh\AppData\Local\Temp\surefire13618424592065075284\surefirebooter17489980753613556242.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="shobh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\shobh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\shobh\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="C:\Users\shobh\OneDrive\Documents\Software_Testing\Git_Pract\HRM_Jenkin"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\eclipse-java-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/eclipse-java-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\CMG\CMGJobService;C:\Program Files\Amazon Corretto\jdk11.0.9_12\bin;C:\Python_9\Scripts\;C:\Python_9\;C:\Program Files\National Instruments\Shared\OpenVINO\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\shobh\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\shobh\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\eclipse-java-2021-03-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="VerifyLoginFunctionality" classname="com.qa.orangeHRM.testcases.LoginTest" time="1.537">
+    <system-out><![CDATA[[TestNG] [WARN] Ignoring duplicate listener : org.uncommons.reportng.HTMLReporter
+BeforeSuite: All initialization happen here
+Class is started
+BeforeTest: Common code required will be executed
+BeforeClass - Parent test report will be initialized
+[INFO ] 2021-05-01 13:57:16.338 [main] base - Before Method is started
+[INFO ] 2021-05-01 13:57:16.345 [main] base - Executing on browser Chrome
+[DEBUG] 2021-05-01 13:57:16.504 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-05-01 13:57:16.514 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-05-01 13:57:16.514 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-05-01 13:57:16.521 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@85ec632
+[DEBUG] 2021-05-01 13:57:16.548 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-05-01 13:57:16.550 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-05-01 13:57:16.551 [main] PlatformDependent0 - Java version: 15
+[DEBUG] 2021-05-01 13:57:16.553 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-05-01 13:57:16.554 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-05-01 13:57:16.555 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-05-01 13:57:16.556 [main] PlatformDependent0 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:238) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:312) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:232) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) ~[async-http-client-2.12.2.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) ~[async-http-client-2.12.2.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) ~[async-http-client-2.12.2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:98) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:51) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:147) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:110) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:96) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:86) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:68) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:78) ~[selenium-chromium-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:99) ~[selenium-chrome-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:86) ~[selenium-chrome-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:41) ~[selenium-chrome-driver-4.0.0-beta-2.jar:?]
+	at com.qa.orangeHRM.common.base.beforeMethod(base.java:56) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+[DEBUG] 2021-05-01 13:57:16.567 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-05-01 13:57:16.570 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1283bb96
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:556) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:352) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:312) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:343) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) ~[async-http-client-2.12.2.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) ~[async-http-client-2.12.2.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) ~[async-http-client-2.12.2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:98) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:51) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:147) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:110) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:96) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:86) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:68) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:78) ~[selenium-chromium-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:99) ~[selenium-chrome-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:86) ~[selenium-chrome-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:41) ~[selenium-chrome-driver-4.0.0-beta-2.jar:?]
+	at com.qa.orangeHRM.common.base.beforeMethod(base.java:56) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [testng-7.4.0.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-7.4.0.jar:7.4.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+[DEBUG] 2021-05-01 13:57:16.573 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2021-05-01 13:57:16.573 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-05-01 13:57:16.574 [main] PlatformDependent - maxDirectMemory: 8535408640 bytes (maybe)
+[DEBUG] 2021-05-01 13:57:16.575 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\shobh\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-05-01 13:57:16.575 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-05-01 13:57:16.576 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2021-05-01 13:57:16.576 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-05-01 13:57:16.578 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-05-01 13:57:16.579 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-05-01 13:57:16.592 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-05-01 13:57:16.627 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-05-01 13:57:16.627 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-05-01 13:57:16.856 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-05-01 13:57:16.856 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-05-01 13:57:16.897 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2021-05-01 13:57:16.913 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-05-01 13:57:16.914 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-05-01 13:57:16.953 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2032e725
+[TRACE] 2021-05-01 13:57:16.956 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@26dcd8c0
+[TRACE] 2021-05-01 13:57:16.957 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@66e889df
+[TRACE] 2021-05-01 13:57:16.959 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@444548a0
+[TRACE] 2021-05-01 13:57:16.961 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3766c667
+[TRACE] 2021-05-01 13:57:16.963 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@773c0293
+[TRACE] 2021-05-01 13:57:16.965 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@55b8dbda
+[TRACE] 2021-05-01 13:57:16.966 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3b569985
+[TRACE] 2021-05-01 13:57:16.968 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3a022576
+[TRACE] 2021-05-01 13:57:16.969 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2dbd803f
+[TRACE] 2021-05-01 13:57:16.970 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3e48e859
+[TRACE] 2021-05-01 13:57:16.972 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@31ddd4a4
+[TRACE] 2021-05-01 13:57:16.974 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1a5f7e7c
+[TRACE] 2021-05-01 13:57:16.975 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5b22b970
+[TRACE] 2021-05-01 13:57:16.977 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@22d1886d
+[TRACE] 2021-05-01 13:57:16.979 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7df60067
+[DEBUG] 2021-05-01 13:57:17.025 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+[DEBUG] 2021-05-01 13:57:17.025 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+[DEBUG] 2021-05-01 13:57:17.025 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-05-01 13:57:17.025 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-05-01 13:57:17.026 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-05-01 13:57:17.026 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-05-01 13:57:17.026 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-05-01 13:57:17.026 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-05-01 13:57:17.026 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-05-01 13:57:17.026 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-05-01 13:57:17.026 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-05-01 13:57:17.026 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-05-01 13:57:17.045 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-05-01 13:57:17.045 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-05-01 13:57:17.045 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-05-01 13:57:18.006 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 11496 (auto-detected)
+[DEBUG] 2021-05-01 13:57:18.010 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-05-01 13:57:18.011 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-05-01 13:57:18.029 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-05-01 13:57:18.031 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-05-01 13:57:18.124 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: c8:e2:65:ff:fe:58:32:d4 (auto-detected)
+[DEBUG] 2021-05-01 13:57:18.216 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-05-01 13:57:18.217 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-05-01 13:57:18.218 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1a363f57
+[DEBUG] 2021-05-01 13:57:18.260 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-05-01 13:57:18.260 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-05-01 13:57:18.260 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-05-01 13:57:18.260 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-05-01 13:57:18.260 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2021-05-01 13:57:19.250 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x94cf8c8e903f69a4
+[INFO ] 2021-05-01 13:57:20.509 [main] base - Browser is launched successfully
+Title is OrangeHRM
+BeforeMethod - Test report inititalization
+Before test start
+[INFO ] 2021-05-01 13:57:22.303 [main] class - User is logged in successfully
+Passed: User is logged in successfully
+Test case is passed
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 29281
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1619895438.928][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 01, 2021 1:57:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 01, 2021 1:57:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
+May 01, 2021 1:57:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 90 of 89
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyAddingJobTitle" classname="com.qa.orangeHRM.testcases.AddingJobTitleTest" time="7.027">
+    <system-out><![CDATA[AfterMethod - Test Report will be closed
+[TRACE] 2021-05-01 13:57:22.319 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+AfterClass - Parent test report will be closed
+BeforeClass - Parent test report will be initialized
+[INFO ] 2021-05-01 13:57:23.450 [main] base - Before Method is started
+[INFO ] 2021-05-01 13:57:23.450 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-01 13:57:25.839 [main] base - Browser is launched successfully
+Title is OrangeHRM
+BeforeMethod - Test report inititalization
+Before test start
+[INFO ] 2021-05-01 13:57:27.460 [main] class - User is logged in successfully
+Passed: User is logged in successfully
+[INFO ] 2021-05-01 13:57:32.677 [main] JobTitles - Job Title is created successfully
+Passed: Job Title is created successfully
+Test case is passed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 14009
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1619895444.603][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 01, 2021 1:57:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 01, 2021 1:57:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
+May 01, 2021 1:57:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 90 of 89
+]]></system-err>
+  </testcase>
+  <testcase name="addingpayGrades" classname="com.qa.orangeHRM.testcases.AddingPayGrades" time="6.949">
+    <system-out><![CDATA[AfterMethod - Test Report will be closed
+[TRACE] 2021-05-01 13:57:32.891 [AsyncHttpClient-1-7] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+AfterClass - Parent test report will be closed
+BeforeClass - Parent test report will be initialized
+[INFO ] 2021-05-01 13:57:34.032 [main] base - Before Method is started
+[INFO ] 2021-05-01 13:57:34.032 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-01 13:57:36.302 [main] base - Browser is launched successfully
+Title is OrangeHRM
+BeforeMethod - Test report inititalization
+Before test start
+[INFO ] 2021-05-01 13:57:37.627 [main] class - User is logged in successfully
+Passed: User is logged in successfully
+[INFO ] 2021-05-01 13:57:41.675 [main] JobTitles - Add Pay Grade Page is opened successfully
+Passed: Add Pay Grade Page is opened successfully
+[INFO ] 2021-05-01 13:57:42.239 [main] JobTitles - Edit Pay Grade Page is opened successfully
+Passed: Edit Pay Grade Page is opened successfully
+[INFO ] 2021-05-01 13:57:42.357 [main] JobTitles - Add Currency Page is opened successfully
+Passed: Add Currency Page is opened successfully
+[INFO ] 2021-05-01 13:57:42.562 [main] JobTitles - Add Currency is selected successfully
+Passed: Add Currency is selected successfully
+[INFO ] 2021-05-01 13:57:43.261 [main] JobTitles - Clicked on Save Currency successfully
+Passed: Clicked on Save Currency successfully
+Test case is passed
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 25150
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1619895455.096][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 01, 2021 1:57:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 01, 2021 1:57:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
+May 01, 2021 1:57:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 90 of 89
+]]></system-err>
+  </testcase>
+</testsuite>

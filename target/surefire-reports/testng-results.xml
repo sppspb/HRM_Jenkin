@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="11" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-01T13:57:16 CDT" name="Suite" finished-at="2021-05-01T13:57:43 CDT" duration-ms="27645">
+    <groups>
+    </groups>
+    <test started-at="2021-05-01T13:57:16 CDT" name="Test" finished-at="2021-05-01T13:57:43 CDT" duration-ms="27645">
+      <class name="com.qa.orangeHRM.testcases.AddingJobTitleTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@4b672daa]" started-at="2021-05-01T13:57:23 CDT" name="beforeClass" finished-at="2021-05-01T13:57:23 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@4b672daa]" started-at="2021-05-01T13:57:23 CDT" name="beforeMethod" finished-at="2021-05-01T13:57:25 CDT" duration-ms="2399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.qa.orangeHRM.testcases.AddingJobTitleTest.VerifyAddingJobTitle() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyAddingJobTitle()[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@4b672daa]" started-at="2021-05-01T13:57:25 CDT" name="VerifyAddingJobTitle" finished-at="2021-05-01T13:57:32 CDT" duration-ms="7042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddingJobTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@4b672daa]" started-at="2021-05-01T13:57:32 CDT" name="afterMethod" finished-at="2021-05-01T13:57:34 CDT" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddingJobTitleTest@4b672daa]" started-at="2021-05-01T13:57:34 CDT" name="afterClass" finished-at="2021-05-01T13:57:34 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.qa.orangeHRM.testcases.AddingJobTitleTest -->
+      <class name="com.qa.orangeHRM.testcases.AddingPayGrades">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@ea9b7c6]" started-at="2021-05-01T13:57:34 CDT" name="beforeClass" finished-at="2021-05-01T13:57:34 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@ea9b7c6]" started-at="2021-05-01T13:57:34 CDT" name="beforeMethod" finished-at="2021-05-01T13:57:36 CDT" duration-ms="2278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.qa.orangeHRM.testcases.AddingPayGrades.addingpayGrades()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addingpayGrades()[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@ea9b7c6]" started-at="2021-05-01T13:57:36 CDT" name="addingpayGrades" finished-at="2021-05-01T13:57:43 CDT" duration-ms="6952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingpayGrades -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@ea9b7c6]" started-at="2021-05-01T13:57:43 CDT" name="afterMethod" finished-at="2021-05-01T13:57:43 CDT" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddingPayGrades@ea9b7c6]" started-at="2021-05-01T13:57:43 CDT" name="afterClass" finished-at="2021-05-01T13:57:43 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.qa.orangeHRM.testcases.AddingPayGrades -->
+      <class name="com.qa.orangeHRM.testcases.LoginTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@56bca85b]" started-at="2021-05-01T13:57:16 CDT" name="beforeSuite" finished-at="2021-05-01T13:57:16 CDT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@56bca85b]" started-at="2021-05-01T13:57:16 CDT" name="beforeTest" finished-at="2021-05-01T13:57:16 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@56bca85b]" started-at="2021-05-01T13:57:16 CDT" name="beforeClass" finished-at="2021-05-01T13:57:16 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@56bca85b]" started-at="2021-05-01T13:57:16 CDT" name="beforeMethod" finished-at="2021-05-01T13:57:20 CDT" duration-ms="4193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.qa.orangeHRM.testcases.LoginTest.VerifyLoginFunctionality() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyLoginFunctionality()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@56bca85b]" started-at="2021-05-01T13:57:20 CDT" name="VerifyLoginFunctionality" finished-at="2021-05-01T13:57:22 CDT" duration-ms="1787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginFunctionality -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@56bca85b]" started-at="2021-05-01T13:57:22 CDT" name="afterMethod" finished-at="2021-05-01T13:57:23 CDT" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@56bca85b]" started-at="2021-05-01T13:57:23 CDT" name="afterClass" finished-at="2021-05-01T13:57:23 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@56bca85b]" started-at="2021-05-01T13:57:43 CDT" name="afterTest" finished-at="2021-05-01T13:57:43 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.orangeHRM.testcases.LoginTest@56bca85b]" started-at="2021-05-01T13:57:43 CDT" name="afterSuite" finished-at="2021-05-01T13:57:44 CDT" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.qa.orangeHRM.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

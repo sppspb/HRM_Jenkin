@@ -1,0 +1,13 @@
+com\qa\orangeHRM\common\base.class
+com\qa\orangeHRM\listeners\ListenerMethods.class
+com\qa\orangeHRM\testcases\AddingPayGrades.class
+com\qa\orangeHRM\testcases\AddingJobTitleTest.class
+com\qa\orangeHRM\testcases\LoginTest.class
+com\qa\orangeHRM\pages\EmployeeImport.class
+com\qa\orangeHRM\pages\LoginPage.class
+com\qa\orangeHRM\config\gblConstants.class
+com\qa\orangeHRM\pages\PayGrades.class
+com\qa\orangeHRM\util\util.class
+com\qa\orangeHRM\testcases\EmpFileUpload.class
+com\qa\orangeHRM\pages\JobTitles.class
+com\qa\orangeHRM\report\Report.class
